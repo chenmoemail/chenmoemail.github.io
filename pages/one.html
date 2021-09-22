@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>陈QC健康指标变化一览系统</title>
+    <title>陈QC健康指标变化一览图</title>
             <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
 
     
@@ -40,25 +40,25 @@
         }
     </style>
     <div class="tab">
-            <button class="tablinks" onclick="showChart(event, 'ab4715f74db04f6a82723eb56ff9ed56')">1-血常规</button>
-            <button class="tablinks" onclick="showChart(event, '28bc283952b747de9d6ca903ffc95a20')">2-肝脏</button>
-            <button class="tablinks" onclick="showChart(event, 'cd17f3c89df746cbb5ebe6d9c99922db')">3-肾脏</button>
-            <button class="tablinks" onclick="showChart(event, 'a7e9262ed7a9426683c0808428468a67')">4-心脏</button>
-            <button class="tablinks" onclick="showChart(event, '922a622ea57b437bae83f747eebe9884')">5-胰腺</button>
-            <button class="tablinks" onclick="showChart(event, '870235033af343ab96fb7cbafc6c6555')">6-血糖&血脂</button>
-            <button class="tablinks" onclick="showChart(event, '4125084bc7f04cbaaf63093b2e863702')">7-电解质</button>
-            <button class="tablinks" onclick="showChart(event, 'a8d6ac1d65e2454b99cc03d74bfc4e2a')">8-肿瘤标志物</button>
-            <button class="tablinks" onclick="showChart(event, 'd41b4d5d16b64bdf87d4dd73e4f72121')">9-凝血</button>
-            <button class="tablinks" onclick="showChart(event, '1249c7ddbbb6483582f3561982537385')">10-尿常规</button>
-            <button class="tablinks" onclick="showChart(event, '69dac5e398b24211a0118163133a40c6')">11-日常</button>
+            <button class="tablinks" onclick="showChart(event, '8f0331b0e6494c9eaa4db69ec3697db8')">1-血常规</button>
+            <button class="tablinks" onclick="showChart(event, 'f4f7e914c0ad4256968af8feb91a8a7b')">2-肝脏</button>
+            <button class="tablinks" onclick="showChart(event, 'd3dee4262ed44c3a88aa4571a65180ae')">3-肾脏</button>
+            <button class="tablinks" onclick="showChart(event, '7dc7acf4d6c84155b8e9ba5311d6630d')">4-心脏</button>
+            <button class="tablinks" onclick="showChart(event, '6656bd65b821465aa318691c28f3555a')">5-胰腺</button>
+            <button class="tablinks" onclick="showChart(event, '99c09e07d58845a39d7ab6bf61eade4b')">6-血糖&血脂</button>
+            <button class="tablinks" onclick="showChart(event, '2120c5acddd64bda804e820713612c38')">7-电解质</button>
+            <button class="tablinks" onclick="showChart(event, 'b696808b49d0463b93806e982d5f2f52')">8-肿瘤标志物</button>
+            <button class="tablinks" onclick="showChart(event, '399b7e65820e4e51bf0cf14608defb10')">9-凝血</button>
+            <button class="tablinks" onclick="showChart(event, '0869e1d1e43149d3a54e447c18d03436')">10-尿常规</button>
+            <button class="tablinks" onclick="showChart(event, 'afcd28391c1d43008a9a997910794e4c')">11-日常</button>
     </div>
 
     <div class="box">
-                <div id="ab4715f74db04f6a82723eb56ff9ed56" class="chart-container" style="width:1000px; height:700px;"></div>
+                <div id="8f0331b0e6494c9eaa4db69ec3697db8" class="chart-container" style="width:1000px; height:700px;"></div>
     <script>
-        var chart_ab4715f74db04f6a82723eb56ff9ed56 = echarts.init(
-            document.getElementById('ab4715f74db04f6a82723eb56ff9ed56'), 'white', {renderer: 'canvas'});
-        var option_ab4715f74db04f6a82723eb56ff9ed56 = {
+        var chart_8f0331b0e6494c9eaa4db69ec3697db8 = echarts.init(
+            document.getElementById('8f0331b0e6494c9eaa4db69ec3697db8'), 'white', {renderer: 'canvas'});
+        var option_8f0331b0e6494c9eaa4db69ec3697db8 = {
     "backgroundColor": "white",
     "animation": true,
     "animationThreshold": 2000,
@@ -5244,29 +5244,29 @@
             ],
             "selected": {
                 "\u767d\u7ec6\u80de": true,
-                "\u7ea2\u7ec6\u80de": true,
-                "\u8840\u7ea2\u86cb\u767d": true,
-                "\u8840\u5c0f\u677f": true,
-                "\u6dcb\u5df4\u7ec6\u80de": true,
-                "\u4e2d\u6027\u7c92\u7ec6\u80de": true,
-                "\u7ea2\u7ec6\u80de\u538b\u79ef": true,
-                "\u7ea2\u7ec6\u80de\u4f53\u79ef": true,
-                "\u7ea2\u7ec6\u80de\u5206\u5e03\u5bbd\u5ea6": true,
-                "\u7ea2\u7ec6\u80de\u5206\u5e03\u5bbd\u5ea6\u6807\u51c6\u5dee": true,
-                "\u7ea2\u7ec6\u80de\u8840\u7ea2\u86cb\u767d\u91cf": true,
-                "\u7ea2\u7ec6\u80de\u8840\u7ea2\u86cb\u767d\u6d53\u5ea6": true,
-                "\u8840\u5c0f\u677f\u4f53\u79ef": true,
-                "\u8840\u5c0f\u677f\u538b\u79ef": true,
-                "\u5927\u8840\u5c0f\u677f%": true,
-                "\u8840\u5c0f\u677f\u5206\u5e03\u5bbd\u5ea6": true,
-                "\u6dcb\u5df4\u7ec6\u80de%": true,
-                "\u5355\u6838\u7ec6\u80de": true,
-                "\u5355\u6838\u7ec6\u80de%": true,
-                "\u4e2d\u6027\u7c92\u7ec6\u80de%": true,
-                "\u55dc\u9178\u6027\u7c92\u7ec6\u80de": true,
-                "\u55dc\u78b1\u6027\u7c92\u7ec6\u80de": true,
-                "\u55dc\u9178\u6027\u7c92\u7ec6\u80de%": true,
-                "\u55dc\u78b1\u6027\u7c92\u7ec6\u80de%": true
+                "\u7ea2\u7ec6\u80de": false,
+                "\u8840\u7ea2\u86cb\u767d": false,
+                "\u8840\u5c0f\u677f": false,
+                "\u6dcb\u5df4\u7ec6\u80de": false,
+                "\u4e2d\u6027\u7c92\u7ec6\u80de": false,
+                "\u7ea2\u7ec6\u80de\u538b\u79ef": false,
+                "\u7ea2\u7ec6\u80de\u4f53\u79ef": false,
+                "\u7ea2\u7ec6\u80de\u5206\u5e03\u5bbd\u5ea6": false,
+                "\u7ea2\u7ec6\u80de\u5206\u5e03\u5bbd\u5ea6\u6807\u51c6\u5dee": false,
+                "\u7ea2\u7ec6\u80de\u8840\u7ea2\u86cb\u767d\u91cf": false,
+                "\u7ea2\u7ec6\u80de\u8840\u7ea2\u86cb\u767d\u6d53\u5ea6": false,
+                "\u8840\u5c0f\u677f\u4f53\u79ef": false,
+                "\u8840\u5c0f\u677f\u538b\u79ef": false,
+                "\u5927\u8840\u5c0f\u677f%": false,
+                "\u8840\u5c0f\u677f\u5206\u5e03\u5bbd\u5ea6": false,
+                "\u6dcb\u5df4\u7ec6\u80de%": false,
+                "\u5355\u6838\u7ec6\u80de": false,
+                "\u5355\u6838\u7ec6\u80de%": false,
+                "\u4e2d\u6027\u7c92\u7ec6\u80de%": false,
+                "\u55dc\u9178\u6027\u7c92\u7ec6\u80de": false,
+                "\u55dc\u78b1\u6027\u7c92\u7ec6\u80de": false,
+                "\u55dc\u9178\u6027\u7c92\u7ec6\u80de%": false,
+                "\u55dc\u78b1\u6027\u7c92\u7ec6\u80de%": false
             },
             "type": "scroll",
             "show": true,
@@ -5574,13 +5574,13 @@
         }
     ]
 };
-        chart_ab4715f74db04f6a82723eb56ff9ed56.setOption(option_ab4715f74db04f6a82723eb56ff9ed56);
+        chart_8f0331b0e6494c9eaa4db69ec3697db8.setOption(option_8f0331b0e6494c9eaa4db69ec3697db8);
     </script>
-                <div id="28bc283952b747de9d6ca903ffc95a20" class="chart-container" style="width:1000px; height:700px;"></div>
+                <div id="f4f7e914c0ad4256968af8feb91a8a7b" class="chart-container" style="width:1000px; height:700px;"></div>
     <script>
-        var chart_28bc283952b747de9d6ca903ffc95a20 = echarts.init(
-            document.getElementById('28bc283952b747de9d6ca903ffc95a20'), 'white', {renderer: 'canvas'});
-        var option_28bc283952b747de9d6ca903ffc95a20 = {
+        var chart_f4f7e914c0ad4256968af8feb91a8a7b = echarts.init(
+            document.getElementById('f4f7e914c0ad4256968af8feb91a8a7b'), 'white', {renderer: 'canvas'});
+        var option_f4f7e914c0ad4256968af8feb91a8a7b = {
     "backgroundColor": "white",
     "animation": true,
     "animationThreshold": 2000,
@@ -5754,7 +5754,7 @@
                 ],
                 [
                     "2021-09-10",
-                    "65.3"
+                    ""
                 ],
                 [
                     "2021-09-11",
@@ -5951,7 +5951,7 @@
                 ],
                 [
                     "2021-09-10",
-                    "42.0"
+                    ""
                 ],
                 [
                     "2021-09-11",
@@ -6148,7 +6148,7 @@
                 ],
                 [
                     "2021-09-10",
-                    "23.3"
+                    ""
                 ],
                 [
                     "2021-09-11",
@@ -6345,7 +6345,7 @@
                 ],
                 [
                     "2021-09-10",
-                    "1.8"
+                    ""
                 ],
                 [
                     "2021-09-11",
@@ -6542,7 +6542,7 @@
                 ],
                 [
                     "2021-09-10",
-                    "322.0"
+                    ""
                 ],
                 [
                     "2021-09-11",
@@ -6739,7 +6739,7 @@
                 ],
                 [
                     "2021-09-10",
-                    "16.1"
+                    ""
                 ],
                 [
                     "2021-09-11",
@@ -7133,7 +7133,7 @@
                 ],
                 [
                     "2021-09-10",
-                    "14.2"
+                    ""
                 ],
                 [
                     "2021-09-11",
@@ -7330,7 +7330,7 @@
                 ],
                 [
                     "2021-09-10",
-                    "1.4"
+                    ""
                 ],
                 [
                     "2021-09-11",
@@ -7527,7 +7527,7 @@
                 ],
                 [
                     "2021-09-10",
-                    "41.0"
+                    ""
                 ],
                 [
                     "2021-09-11",
@@ -7724,7 +7724,7 @@
                 ],
                 [
                     "2021-09-10",
-                    "24.0"
+                    ""
                 ],
                 [
                     "2021-09-11",
@@ -7921,7 +7921,7 @@
                 ],
                 [
                     "2021-09-10",
-                    "29.0"
+                    ""
                 ],
                 [
                     "2021-09-11",
@@ -8315,7 +8315,7 @@
                 ],
                 [
                     "2021-09-10",
-                    "115.0"
+                    ""
                 ],
                 [
                     "2021-09-11",
@@ -8512,7 +8512,7 @@
                 ],
                 [
                     "2021-09-10",
-                    "8.9"
+                    ""
                 ],
                 [
                     "2021-09-11",
@@ -8594,20 +8594,20 @@
             ],
             "selected": {
                 "\u603b\u86cb\u767d": true,
-                "\u767d\u86cb\u767d": true,
-                "\u7403\u86cb\u767d": true,
-                "\u767d\u86cb\u767d/\u7403\u86cb\u767d": true,
-                "\u524d\u767d\u86cb\u767d": true,
-                "\u603b\u80c6\u7ea2\u7d20": true,
-                "\u76f4\u63a5\u80c6\u7ea2\u7d20": true,
-                "\u95f4\u63a5\u80c6\u7ea2\u7d20": true,
-                "\u603b\u80c6\u6c41\u9178": true,
-                "ALT\u8c37\u4e19\u8f6c\u6c28\u9176": true,
-                "AST\u8c37\u8349\u8f6c\u6c28\u9176": true,
-                "GGT\u8c37\u6c28\u9170\u8f6c\u80bd\u9176": true,
-                "LDH\u4e73\u9178\u8131\u6c22\u9176": true,
-                "ALP\u78b1\u6027\u78f7\u9178\u9176": true,
-                "\u80c6\u78b1\u916f\u9176": true
+                "\u767d\u86cb\u767d": false,
+                "\u7403\u86cb\u767d": false,
+                "\u767d\u86cb\u767d/\u7403\u86cb\u767d": false,
+                "\u524d\u767d\u86cb\u767d": false,
+                "\u603b\u80c6\u7ea2\u7d20": false,
+                "\u76f4\u63a5\u80c6\u7ea2\u7d20": false,
+                "\u95f4\u63a5\u80c6\u7ea2\u7d20": false,
+                "\u603b\u80c6\u6c41\u9178": false,
+                "ALT\u8c37\u4e19\u8f6c\u6c28\u9176": false,
+                "AST\u8c37\u8349\u8f6c\u6c28\u9176": false,
+                "GGT\u8c37\u6c28\u9170\u8f6c\u80bd\u9176": false,
+                "LDH\u4e73\u9178\u8131\u6c22\u9176": false,
+                "ALP\u78b1\u6027\u78f7\u9178\u9176": false,
+                "\u80c6\u78b1\u916f\u9176": false
             },
             "type": "scroll",
             "show": true,
@@ -8911,13 +8911,13 @@
         }
     ]
 };
-        chart_28bc283952b747de9d6ca903ffc95a20.setOption(option_28bc283952b747de9d6ca903ffc95a20);
+        chart_f4f7e914c0ad4256968af8feb91a8a7b.setOption(option_f4f7e914c0ad4256968af8feb91a8a7b);
     </script>
-                <div id="cd17f3c89df746cbb5ebe6d9c99922db" class="chart-container" style="width:1000px; height:700px;"></div>
+                <div id="d3dee4262ed44c3a88aa4571a65180ae" class="chart-container" style="width:1000px; height:700px;"></div>
     <script>
-        var chart_cd17f3c89df746cbb5ebe6d9c99922db = echarts.init(
-            document.getElementById('cd17f3c89df746cbb5ebe6d9c99922db'), 'white', {renderer: 'canvas'});
-        var option_cd17f3c89df746cbb5ebe6d9c99922db = {
+        var chart_d3dee4262ed44c3a88aa4571a65180ae = echarts.init(
+            document.getElementById('d3dee4262ed44c3a88aa4571a65180ae'), 'white', {renderer: 'canvas'});
+        var option_d3dee4262ed44c3a88aa4571a65180ae = {
     "backgroundColor": "white",
     "animation": true,
     "animationThreshold": 2000,
@@ -9091,7 +9091,7 @@
                 ],
                 [
                     "2021-09-10",
-                    "5.5"
+                    ""
                 ],
                 [
                     "2021-09-11",
@@ -9288,7 +9288,7 @@
                 ],
                 [
                     "2021-09-10",
-                    "295.0"
+                    ""
                 ],
                 [
                     "2021-09-11",
@@ -9485,7 +9485,7 @@
                 ],
                 [
                     "2021-09-10",
-                    "62.8"
+                    ""
                 ],
                 [
                     "2021-09-11",
@@ -9682,7 +9682,7 @@
                 ],
                 [
                     "2021-09-10",
-                    "0.7"
+                    ""
                 ],
                 [
                     "2021-09-11",
@@ -10076,7 +10076,7 @@
                 ],
                 [
                     "2021-09-10",
-                    "105.8"
+                    ""
                 ],
                 [
                     "2021-09-11",
@@ -10149,11 +10149,11 @@
             ],
             "selected": {
                 "\u5c3f\u7d20": true,
-                "\u5c3f\u9178": true,
-                "\u808c\u9150": true,
-                "\u80f1\u6291\u7d20C": true,
-                "\u603b\u4e8c\u6c27\u5316\u78b3": true,
-                "\u4f30\u7b97\u80be\u5c0f\u7403\u6ee4\u8fc7\u7387": true
+                "\u5c3f\u9178": false,
+                "\u808c\u9150": false,
+                "\u80f1\u6291\u7d20C": false,
+                "\u603b\u4e8c\u6c27\u5316\u78b3": false,
+                "\u4f30\u7b97\u80be\u5c0f\u7403\u6ee4\u8fc7\u7387": false
             },
             "type": "scroll",
             "show": true,
@@ -10457,13 +10457,13 @@
         }
     ]
 };
-        chart_cd17f3c89df746cbb5ebe6d9c99922db.setOption(option_cd17f3c89df746cbb5ebe6d9c99922db);
+        chart_d3dee4262ed44c3a88aa4571a65180ae.setOption(option_d3dee4262ed44c3a88aa4571a65180ae);
     </script>
-                <div id="a7e9262ed7a9426683c0808428468a67" class="chart-container" style="width:1000px; height:700px;"></div>
+                <div id="7dc7acf4d6c84155b8e9ba5311d6630d" class="chart-container" style="width:1000px; height:700px;"></div>
     <script>
-        var chart_a7e9262ed7a9426683c0808428468a67 = echarts.init(
-            document.getElementById('a7e9262ed7a9426683c0808428468a67'), 'white', {renderer: 'canvas'});
-        var option_a7e9262ed7a9426683c0808428468a67 = {
+        var chart_7dc7acf4d6c84155b8e9ba5311d6630d = echarts.init(
+            document.getElementById('7dc7acf4d6c84155b8e9ba5311d6630d'), 'white', {renderer: 'canvas'});
+        var option_7dc7acf4d6c84155b8e9ba5311d6630d = {
     "backgroundColor": "white",
     "animation": true,
     "animationThreshold": 2000,
@@ -11101,8 +11101,8 @@
             ],
             "selected": {
                 "CK\u808c\u9178\u6fc0\u9176": true,
-                "\u808c\u9178\u6fc0\u9176\u540c\u5de5\u9176": true,
-                "\u7f9f\u4e01\u9178": true
+                "\u808c\u9178\u6fc0\u9176\u540c\u5de5\u9176": false,
+                "\u7f9f\u4e01\u9178": false
             },
             "type": "scroll",
             "show": true,
@@ -11406,13 +11406,13 @@
         }
     ]
 };
-        chart_a7e9262ed7a9426683c0808428468a67.setOption(option_a7e9262ed7a9426683c0808428468a67);
+        chart_7dc7acf4d6c84155b8e9ba5311d6630d.setOption(option_7dc7acf4d6c84155b8e9ba5311d6630d);
     </script>
-                <div id="922a622ea57b437bae83f747eebe9884" class="chart-container" style="width:1000px; height:700px;"></div>
+                <div id="6656bd65b821465aa318691c28f3555a" class="chart-container" style="width:1000px; height:700px;"></div>
     <script>
-        var chart_922a622ea57b437bae83f747eebe9884 = echarts.init(
-            document.getElementById('922a622ea57b437bae83f747eebe9884'), 'white', {renderer: 'canvas'});
-        var option_922a622ea57b437bae83f747eebe9884 = {
+        var chart_6656bd65b821465aa318691c28f3555a = echarts.init(
+            document.getElementById('6656bd65b821465aa318691c28f3555a'), 'white', {renderer: 'canvas'});
+        var option_6656bd65b821465aa318691c28f3555a = {
     "backgroundColor": "white",
     "animation": true,
     "animationThreshold": 2000,
@@ -11852,7 +11852,7 @@
             ],
             "selected": {
                 "\u8102\u80aa\u9176": true,
-                "\u6dc0\u7c89\u9176": true
+                "\u6dc0\u7c89\u9176": false
             },
             "type": "scroll",
             "show": true,
@@ -12156,13 +12156,13 @@
         }
     ]
 };
-        chart_922a622ea57b437bae83f747eebe9884.setOption(option_922a622ea57b437bae83f747eebe9884);
+        chart_6656bd65b821465aa318691c28f3555a.setOption(option_6656bd65b821465aa318691c28f3555a);
     </script>
-                <div id="870235033af343ab96fb7cbafc6c6555" class="chart-container" style="width:1000px; height:700px;"></div>
+                <div id="99c09e07d58845a39d7ab6bf61eade4b" class="chart-container" style="width:1000px; height:700px;"></div>
     <script>
-        var chart_870235033af343ab96fb7cbafc6c6555 = echarts.init(
-            document.getElementById('870235033af343ab96fb7cbafc6c6555'), 'white', {renderer: 'canvas'});
-        var option_870235033af343ab96fb7cbafc6c6555 = {
+        var chart_99c09e07d58845a39d7ab6bf61eade4b = echarts.init(
+            document.getElementById('99c09e07d58845a39d7ab6bf61eade4b'), 'white', {renderer: 'canvas'});
+        var option_99c09e07d58845a39d7ab6bf61eade4b = {
     "backgroundColor": "white",
     "animation": true,
     "animationThreshold": 2000,
@@ -13592,12 +13592,12 @@
             ],
             "selected": {
                 "\u8461\u8404\u7cd6": true,
-                "\u603b\u80c6\u56fa\u9187": true,
-                "\u7518\u6cb9\u4e09\u8102": true,
-                "\u9ad8\u5bc6\u5ea6\u8102\u86cb\u767d": true,
-                "\u4f4e\u5bc6\u5ea6\u8102\u86cb\u767d": true,
-                "\u8f7d\u8102\u86cb\u767dA1": true,
-                "\u8f7d\u8102\u86cb\u767dB": true
+                "\u603b\u80c6\u56fa\u9187": false,
+                "\u7518\u6cb9\u4e09\u8102": false,
+                "\u9ad8\u5bc6\u5ea6\u8102\u86cb\u767d": false,
+                "\u4f4e\u5bc6\u5ea6\u8102\u86cb\u767d": false,
+                "\u8f7d\u8102\u86cb\u767dA1": false,
+                "\u8f7d\u8102\u86cb\u767dB": false
             },
             "type": "scroll",
             "show": true,
@@ -13901,13 +13901,13 @@
         }
     ]
 };
-        chart_870235033af343ab96fb7cbafc6c6555.setOption(option_870235033af343ab96fb7cbafc6c6555);
+        chart_99c09e07d58845a39d7ab6bf61eade4b.setOption(option_99c09e07d58845a39d7ab6bf61eade4b);
     </script>
-                <div id="4125084bc7f04cbaaf63093b2e863702" class="chart-container" style="width:1000px; height:700px;"></div>
+                <div id="2120c5acddd64bda804e820713612c38" class="chart-container" style="width:1000px; height:700px;"></div>
     <script>
-        var chart_4125084bc7f04cbaaf63093b2e863702 = echarts.init(
-            document.getElementById('4125084bc7f04cbaaf63093b2e863702'), 'white', {renderer: 'canvas'});
-        var option_4125084bc7f04cbaaf63093b2e863702 = {
+        var chart_2120c5acddd64bda804e820713612c38 = echarts.init(
+            document.getElementById('2120c5acddd64bda804e820713612c38'), 'white', {renderer: 'canvas'});
+        var option_2120c5acddd64bda804e820713612c38 = {
     "backgroundColor": "white",
     "animation": true,
     "animationThreshold": 2000,
@@ -15337,12 +15337,12 @@
             ],
             "selected": {
                 "\u94a0": true,
-                "\u6c2f": true,
-                "\u94be": true,
-                "\u9541": true,
-                "\u9499": true,
-                "\u78f7": true,
-                "\u9499\u78f7\u4e58\u79ef": true
+                "\u6c2f": false,
+                "\u94be": false,
+                "\u9541": false,
+                "\u9499": false,
+                "\u78f7": false,
+                "\u9499\u78f7\u4e58\u79ef": false
             },
             "type": "scroll",
             "show": true,
@@ -15646,13 +15646,13 @@
         }
     ]
 };
-        chart_4125084bc7f04cbaaf63093b2e863702.setOption(option_4125084bc7f04cbaaf63093b2e863702);
+        chart_2120c5acddd64bda804e820713612c38.setOption(option_2120c5acddd64bda804e820713612c38);
     </script>
-                <div id="a8d6ac1d65e2454b99cc03d74bfc4e2a" class="chart-container" style="width:1000px; height:700px;"></div>
+                <div id="b696808b49d0463b93806e982d5f2f52" class="chart-container" style="width:1000px; height:700px;"></div>
     <script>
-        var chart_a8d6ac1d65e2454b99cc03d74bfc4e2a = echarts.init(
-            document.getElementById('a8d6ac1d65e2454b99cc03d74bfc4e2a'), 'white', {renderer: 'canvas'});
-        var option_a8d6ac1d65e2454b99cc03d74bfc4e2a = {
+        var chart_b696808b49d0463b93806e982d5f2f52 = echarts.init(
+            document.getElementById('b696808b49d0463b93806e982d5f2f52'), 'white', {renderer: 'canvas'});
+        var option_b696808b49d0463b93806e982d5f2f52 = {
     "backgroundColor": "white",
     "animation": true,
     "animationThreshold": 2000,
@@ -15999,7 +15999,7 @@
                 ],
                 [
                     "2021-09-10",
-                    "11.5"
+                    ""
                 ],
                 [
                     "2021-09-11",
@@ -17262,14 +17262,14 @@
             ],
             "selected": {
                 "CEA\u764c\u80da\u6297\u539f": true,
-                "CA199": true,
-                "CA125": true,
-                "CA50": true,
-                "SCC\u9cde\u72b6\u4e0a\u76ae\u6297\u539f": true,
-                "CYFRA211\u89d2\u86cb\u767d19\u7247\u6bb5": true,
-                "NSE\u795e\u7ecf\u5143\u7279\u5f02\u6027\u70ef\u9187\u5316\u9176": true,
-                "proGRP\u80c3\u6ccc\u7d20\u91ca\u653e\u80bd\u524d\u4f53": true,
-                "AFP\u7532\u80ce\u86cb\u767d": true
+                "CA199": false,
+                "CA125": false,
+                "CA50": false,
+                "SCC\u9cde\u72b6\u4e0a\u76ae\u6297\u539f": false,
+                "CYFRA211\u89d2\u86cb\u767d19\u7247\u6bb5": false,
+                "NSE\u795e\u7ecf\u5143\u7279\u5f02\u6027\u70ef\u9187\u5316\u9176": false,
+                "proGRP\u80c3\u6ccc\u7d20\u91ca\u653e\u80bd\u524d\u4f53": false,
+                "AFP\u7532\u80ce\u86cb\u767d": false
             },
             "type": "scroll",
             "show": true,
@@ -17567,13 +17567,13 @@
         }
     ]
 };
-        chart_a8d6ac1d65e2454b99cc03d74bfc4e2a.setOption(option_a8d6ac1d65e2454b99cc03d74bfc4e2a);
+        chart_b696808b49d0463b93806e982d5f2f52.setOption(option_b696808b49d0463b93806e982d5f2f52);
     </script>
-                <div id="d41b4d5d16b64bdf87d4dd73e4f72121" class="chart-container" style="width:1000px; height:700px;"></div>
+                <div id="399b7e65820e4e51bf0cf14608defb10" class="chart-container" style="width:1000px; height:700px;"></div>
     <script>
-        var chart_d41b4d5d16b64bdf87d4dd73e4f72121 = echarts.init(
-            document.getElementById('d41b4d5d16b64bdf87d4dd73e4f72121'), 'white', {renderer: 'canvas'});
-        var option_d41b4d5d16b64bdf87d4dd73e4f72121 = {
+        var chart_399b7e65820e4e51bf0cf14608defb10 = echarts.init(
+            document.getElementById('399b7e65820e4e51bf0cf14608defb10'), 'white', {renderer: 'canvas'});
+        var option_399b7e65820e4e51bf0cf14608defb10 = {
     "backgroundColor": "white",
     "animation": true,
     "animationThreshold": 2000,
@@ -18913,13 +18913,13 @@
             ],
             "selected": {
                 "\u51dd\u8840\u9176\u65f6\u95f4": true,
-                "\u51dd\u8840\u9176\u539f\u65f6\u95f4": true,
-                "\u51dd\u8840\u9176\u539f\u6d3b\u52a8\u5ea6": true,
-                "\u51dd\u8840\u9176\u539f\u65f6\u95f4\u6bd4\u503c": true,
-                "\u6d3b\u5316\u90e8\u5206\u51dd\u8840\u6d3b\u9176\u65f6\u95f4": true,
-                "D-\u4e8c\u805a\u4f53": true,
-                "FIB\u7ea4\u7ef4\u86cb\u767d\u539f": true,
-                "FDP\u7ea4\u7ef4\u86cb\u767d\u964d\u89e3\u4ea7\u7269": true
+                "\u51dd\u8840\u9176\u539f\u65f6\u95f4": false,
+                "\u51dd\u8840\u9176\u539f\u6d3b\u52a8\u5ea6": false,
+                "\u51dd\u8840\u9176\u539f\u65f6\u95f4\u6bd4\u503c": false,
+                "\u6d3b\u5316\u90e8\u5206\u51dd\u8840\u6d3b\u9176\u65f6\u95f4": false,
+                "D-\u4e8c\u805a\u4f53": false,
+                "FIB\u7ea4\u7ef4\u86cb\u767d\u539f": false,
+                "FDP\u7ea4\u7ef4\u86cb\u767d\u964d\u89e3\u4ea7\u7269": false
             },
             "type": "scroll",
             "show": true,
@@ -19214,13 +19214,13 @@
         }
     ]
 };
-        chart_d41b4d5d16b64bdf87d4dd73e4f72121.setOption(option_d41b4d5d16b64bdf87d4dd73e4f72121);
+        chart_399b7e65820e4e51bf0cf14608defb10.setOption(option_399b7e65820e4e51bf0cf14608defb10);
     </script>
-                <div id="1249c7ddbbb6483582f3561982537385" class="chart-container" style="width:1000px; height:700px;"></div>
+                <div id="0869e1d1e43149d3a54e447c18d03436" class="chart-container" style="width:1000px; height:700px;"></div>
     <script>
-        var chart_1249c7ddbbb6483582f3561982537385 = echarts.init(
-            document.getElementById('1249c7ddbbb6483582f3561982537385'), 'white', {renderer: 'canvas'});
-        var option_1249c7ddbbb6483582f3561982537385 = {
+        var chart_0869e1d1e43149d3a54e447c18d03436 = echarts.init(
+            document.getElementById('0869e1d1e43149d3a54e447c18d03436'), 'white', {renderer: 'canvas'});
+        var option_0869e1d1e43149d3a54e447c18d03436 = {
     "backgroundColor": "white",
     "animation": true,
     "animationThreshold": 2000,
@@ -22894,38 +22894,38 @@
             ],
             "selected": {
                 "\u7ef4\u751f\u7d20C": true,
-                "\u5c3f\u6bd4\u91cd": true,
-                "\u5c3fPh\u503c": true,
-                "\u5c3f\u86cb\u767d": true,
-                "\u5c3f\u767d\u7ec6\u80de": true,
-                "\u5c3f\u767d\u7ec6\u80de\uff08\u9ad8\u500d\uff09": true,
-                "\u5c3f\u767d\u7ec6\u80de\u916f\u9176": true,
-                "\u5c3f\u7ea2\u7ec6\u80de": true,
-                "\u5c3f\u7ea2\u7ec6\u80de\uff08\u9ad8\u500d\uff09": true,
-                "\u9cde\u72b6\u4e0a\u76ae\u7ec6\u80de": true,
-                "\u9cde\u72b6\u4e0a\u76ae\u7ec6\u80de\uff08\u9ad8\u500d\uff09": true,
-                "\u975e\u9cde\u72b6\u4e0a\u76ae\u7ec6\u80de": true,
-                "\u975e\u9cde\u72b6\u4e0a\u76ae\uff08\u9ad8\u500d\uff09": true,
-                "\u5c3f\u80c6\u539f": true,
-                "\u5c3f\u916e\u4f53": true,
-                "\u5c3f\u6f5c\u8840": true,
-                "\u5c3f\u8461\u8404\u7cd6": true,
-                "\u5c3f\u80c6\u7ea2\u7d20": true,
-                "\u5c3f\u4e9a\u785d\u9178\u76d0": true,
-                "\u6d4a\u5ea6": true,
-                "\u7ba1\u578b": true,
-                "\u900f\u660e\u7ba1\u578b": true,
-                "\u900f\u660e\u7ba1\u578b\uff08\u9ad8\u500d\uff09": true,
-                "\u75c5\u7406\u7ba1\u578b": true,
-                "\u75c5\u7406\u7ba1\u578b\uff08\u9ad8\u500d\uff09": true,
-                "\u7ec6\u83cc": true,
-                "\u7ec6\u83cc\uff08\u9ad8\u500d\uff09": true,
-                "\u771f\u83cc": true,
-                "\u771f\u83cc\uff08\u9ad8\u500d\uff09": true,
-                "\u7ed3\u6676\u6570\u91cf": true,
-                "\u7ed3\u6676\u6570\u91cf(\u9ad8\u500d)": true,
-                "\u7c98\u6db2\u4e1d": true,
-                "\u7c98\u6db2\u4e1d\uff08\u9ad8\u500d\uff09": true
+                "\u5c3f\u6bd4\u91cd": false,
+                "\u5c3fPh\u503c": false,
+                "\u5c3f\u86cb\u767d": false,
+                "\u5c3f\u767d\u7ec6\u80de": false,
+                "\u5c3f\u767d\u7ec6\u80de\uff08\u9ad8\u500d\uff09": false,
+                "\u5c3f\u767d\u7ec6\u80de\u916f\u9176": false,
+                "\u5c3f\u7ea2\u7ec6\u80de": false,
+                "\u5c3f\u7ea2\u7ec6\u80de\uff08\u9ad8\u500d\uff09": false,
+                "\u9cde\u72b6\u4e0a\u76ae\u7ec6\u80de": false,
+                "\u9cde\u72b6\u4e0a\u76ae\u7ec6\u80de\uff08\u9ad8\u500d\uff09": false,
+                "\u975e\u9cde\u72b6\u4e0a\u76ae\u7ec6\u80de": false,
+                "\u975e\u9cde\u72b6\u4e0a\u76ae\uff08\u9ad8\u500d\uff09": false,
+                "\u5c3f\u80c6\u539f": false,
+                "\u5c3f\u916e\u4f53": false,
+                "\u5c3f\u6f5c\u8840": false,
+                "\u5c3f\u8461\u8404\u7cd6": false,
+                "\u5c3f\u80c6\u7ea2\u7d20": false,
+                "\u5c3f\u4e9a\u785d\u9178\u76d0": false,
+                "\u6d4a\u5ea6": false,
+                "\u7ba1\u578b": false,
+                "\u900f\u660e\u7ba1\u578b": false,
+                "\u900f\u660e\u7ba1\u578b\uff08\u9ad8\u500d\uff09": false,
+                "\u75c5\u7406\u7ba1\u578b": false,
+                "\u75c5\u7406\u7ba1\u578b\uff08\u9ad8\u500d\uff09": false,
+                "\u7ec6\u83cc": false,
+                "\u7ec6\u83cc\uff08\u9ad8\u500d\uff09": false,
+                "\u771f\u83cc": false,
+                "\u771f\u83cc\uff08\u9ad8\u500d\uff09": false,
+                "\u7ed3\u6676\u6570\u91cf": false,
+                "\u7ed3\u6676\u6570\u91cf(\u9ad8\u500d)": false,
+                "\u7c98\u6db2\u4e1d": false,
+                "\u7c98\u6db2\u4e1d\uff08\u9ad8\u500d\uff09": false
             },
             "type": "scroll",
             "show": true,
@@ -23207,13 +23207,13 @@
         }
     ]
 };
-        chart_1249c7ddbbb6483582f3561982537385.setOption(option_1249c7ddbbb6483582f3561982537385);
+        chart_0869e1d1e43149d3a54e447c18d03436.setOption(option_0869e1d1e43149d3a54e447c18d03436);
     </script>
-                <div id="69dac5e398b24211a0118163133a40c6" class="chart-container" style="width:1000px; height:700px;"></div>
+                <div id="afcd28391c1d43008a9a997910794e4c" class="chart-container" style="width:1000px; height:700px;"></div>
     <script>
-        var chart_69dac5e398b24211a0118163133a40c6 = echarts.init(
-            document.getElementById('69dac5e398b24211a0118163133a40c6'), 'white', {renderer: 'canvas'});
-        var option_69dac5e398b24211a0118163133a40c6 = {
+        var chart_afcd28391c1d43008a9a997910794e4c = echarts.init(
+            document.getElementById('afcd28391c1d43008a9a997910794e4c'), 'white', {renderer: 'canvas'});
+        var option_afcd28391c1d43008a9a997910794e4c = {
     "backgroundColor": "white",
     "animation": true,
     "animationThreshold": 2000,
@@ -23719,8 +23719,8 @@
             ],
             "selected": {
                 "\u4f53\u91cd": true,
-                "\u5927\u4fbf\u6b21\u6570": true,
-                "\u5927\u4fbf\u7c7b\u578b": true
+                "\u5927\u4fbf\u6b21\u6570": false,
+                "\u5927\u4fbf\u7c7b\u578b": false
             },
             "type": "scroll",
             "show": true,
@@ -24013,7 +24013,7 @@
         }
     ]
 };
-        chart_69dac5e398b24211a0118163133a40c6.setOption(option_69dac5e398b24211a0118163133a40c6);
+        chart_afcd28391c1d43008a9a997910794e4c.setOption(option_afcd28391c1d43008a9a997910794e4c);
     </script>
     </div>
 
